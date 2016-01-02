@@ -16,7 +16,7 @@ module Onebox
 
             def url
                 game_id = @url.match(/^https?:\/\/www\.giantbomb\.com\/.+?\/(.+)?\/$/)[1]
-                "http://www.giantbomb.com/api/game/#{game_id}/?api_key=1f2fbb08dde5a07ceb29f21e581301f3105598e8&format=json"
+                "http://www.giantbomb.com/api/game/#{game_id}/?api_key=212603a017bd1fb02266354f09e37c3f19ad392f&format=json"
             end
 
             def to_html
